@@ -13,8 +13,14 @@ This project contains two Python scripts to generate and display a box of stars 
 
 Run the script with the required arguments `--width` and `--height` to specify the width and height of the star box:
 
-```
+``` 
 python3 star_box.py --width <width> --height <height>
+```
+
+Examples:
+```
+python3 star_box.py --width 5 --height 3
+python3 star_box.py --width 10 --height 4
 ```
 
 ### star_box_logic.py
@@ -36,6 +42,6 @@ for line in box:
 
 Install Typer using pip:
 
-```
+``` 
 pip install typer
 

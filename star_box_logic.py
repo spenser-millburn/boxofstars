@@ -3,7 +3,10 @@ def generate_star_box(width, height):
         return []
 
     star_box = []
-    for _ in range(height):
-        star_box.append('*' * width)
+    for i in range(height):
+        if i == 0 or i == height - 1:
+            star_box.append('*' * width)
+        else:
+            star_box.append('*' + ' ' * (width - 2) + '*')
 
     return star_box

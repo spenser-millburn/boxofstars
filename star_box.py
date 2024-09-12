@@ -1,6 +1,6 @@
 import typer
 
-def main(x: int, y: int):
+def main(x: int = typer.Option(..., help="Width of the rectangle"), y: int = typer.Option(..., help="Height of the rectangle")):
     for _ in range(y):
         print('*' * x, end='')
 

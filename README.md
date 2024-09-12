@@ -11,10 +11,10 @@ This project contains two Python scripts to generate and display a box of stars 
 
 ### star_box.py
 
-Run the script with the required arguments `--x` and `--y` to specify the width and height of the star box:
+Run the script with the required arguments `--width` and `--height` to specify the width and height of the star box:
 
 ```
-python3 star_box.py --x <width> --y <height>
+python3 star_box.py --width <width> --height <height>
 ```
 
 ### star_box_logic.py

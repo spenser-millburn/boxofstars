@@ -38,4 +38,4 @@ Install Typer using pip:
 
 ```
 pip install typer
-```
+

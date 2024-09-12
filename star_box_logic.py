@@ -4,6 +4,6 @@ def generate_star_box(width, height):
 
     star_box = []
     for _ in range(height):
-        star_box.append('*' * width)
-    
+        star_box.append('*' * width + ' ')
+        
     return star_box
